@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>보트맨</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<header>
+		<h1><a href="#">보트맨</a></h1>
+		<nav id="mainMenu">
+			<ul>
+				<li><a href="#voteman">보트맨</a></li>
+				<li><a href="#result">투표 결과</a></li>
+				<li><a href="#invest">심층 설문</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="noscript">
+		<h2>보트맨이 브라우저의 기능을 이용할 수 없습니다!</h2>
+		<ul>
+			<li>JavaScript를 사용함으로 변경하세요.</li>
+			<li>최신 브라우저 (Chrome, IE11)을 이용해주세요.</li>
+		</ul>
+	</div>
+
+	<section id="voteman">
+		<div class="blackb">
+			<h2>보트맨(Voteman)은 무슨 사이트인가요?</h2>
+			<p>보트맨은 Vote + Man의 합성어로써 이번 대선부터 출구조사에 도입된 심층 설문에 대해 많이 알려지지 않아, 공개된 데이터를 바탕으로 비교가 편한 원형 그래프로 재구성해 보여주는 사이트입니다.</p>
+			<h2>출구조사 심층 설문이란?</h2>
+			<p>이번 대선부터 방송3사 합동 출구조사에서 응답자의 성향을 수집하여 성향별로 어떠한 후보를 더 많이 투표하는지에 관해 보여주는 심층 설문을 도입하였습니다. 이를 바탕으로 차기 정치 동향 등을 살펴볼 수 있겠습니다.</p>
+			<h2>읽는법 &amp; 유의사항</h2>
+			<p>- 항목의 배경색은 해당 항목의 최다 득표 후보 상징색을 나타냅니다.</p>
+			<p>- 심층 설문에서 각 설문별 선택률은 원본 자료에 존재하나, 간단히 표시하게 위해 보트맨에는 포함하지 않았습니다.</p>
+			<p>- 보트맨은 어떠한 정치적인 의도가 포함되지 않았으며, 자료에는 어떠한 조작사항도 없음을 알립니다.</p>
+			<p>- 원 그래프의 요소에 마우스를 올리면 일치하는 데이터가 강조됩니다.</p>
+		</div>
+	</section>
+
+	<div class="top-describe">
+		<span class="describe-item describe-item-1">문재인</span>
+		<span class="describe-item describe-item-2">홍준표</span>
+		<span class="describe-item describe-item-3">안철수</span>
+		<span class="describe-item describe-item-4">유승민</span>
+		<span class="describe-item describe-item-5">심상정</span>
+	</div>
+
+	<section id="result" class="background-1">
+		<h2>선거 결과</h2>
+		<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+			<path class="item-1"></path>
+			<path class="item-2"></path>
+			<path class="item-3"></path>
+			<path class="item-4"></path>
+			<path class="item-5"></path>
+		</svg>
+	</section>
+
+	<section id="invest">
+		<section class="invest-base">
+			<h2></h2>
+			<section class="invest-item">
+				<h3></h3>
+				<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+					<path class="item-1"></path>
+					<path class="item-2"></path>
+					<path class="item-3"></path>
+					<path class="item-4"></path>
+					<path class="item-5"></path>
+				</svg>
+			</section>
+		</section>
+	</section>
+
+	<footer>
+		Design by 덕수고등학교 김학연 in 2017. 06<br />
+		모든 자료는 <a href="http://media.daum.net/election/2017/0509/vote/expect/">다음 뉴스</a>에 저작권이 있고, 저작권법 제28조에 의해 학교 교육용으로 공정 이용에 해당함을 알립니다.
+	</footer>
+
+	<a class="top-button" href="#">▲</a>
+</body>
+</html>
